@@ -1,0 +1,31 @@
+<!-- Audio y Video
+Insertar en una página un archivo de audio y un archivo de video usando las
+etiquetas correspondientes de HTML5. Agregar los atributos necesarios para
+mostrar los controles de reproducción. Debajo de cada elemento, escribir un
+breve texto descriptivo. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y video</title>
+</head>
+<body>
+    <h1>Insertando Audio y Video</h1>
+
+    <h2>Archivo de Audio</h2>
+    <audio controls>
+        <source src="./archivos_para_ejercicios/audio/audio.mpeg" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <p>Este es un archivo de audio en formato MP3.</p>
+
+    <h2>Archivo de Video</h2>
+    <video width="400" height="300" controls>
+        <source src="./archivos_para_ejercicios/video/video.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+    <p>Este es un archivo de video en formato MP4.</p>
+</body>
+</html>

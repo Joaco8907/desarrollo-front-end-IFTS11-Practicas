@@ -1,0 +1,87 @@
+<!-- Formulario con Distintos Controles
+Construir un formulario que incluya:
+• un campo de texto,
+• un campo de contraseña,
+• un campo numérico,
+• botones de opción (radio) para elegir género,
+• casillas de verificación (checkbox) para seleccionar intereses,
+• una lista desplegable (select) con al menos tres opciones. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario con distintos controles</h1>
+
+    <>
+        <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="tu nombre"">
+        </div>
+
+        <br><br>
+        
+        <div>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasenia" name="contrasenia" placeholder="tu contraseña" required>
+        </div>
+
+        <br><br>
+        
+        <div>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="0" max="120" placeholder="1" required>
+        </div>
+
+        <br><br>
+
+        <div>
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        </div>
+        
+        <br><br>
+
+        <div>
+        <label>Intereses:</label>
+        <br>
+        <input type="checkbox" id="deportes" name="intereses" value="deportes">
+        <label for="deportes">Deportes</label> 
+        <br>
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label> 
+        <br>
+        <input type="checkbox" id="lectura" name="intereses" value="lectura">
+        <label for="lectura">Lectura</label> 
+        <br>
+        </div>
+        
+        <br><br>
+
+        <div>
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="" disabled selected>Seleccione un país</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+        </select>
+        </div>
+        
+        <br><br>
+
+        <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+        </div>
+
+    </form>
+</body>
+</html>
