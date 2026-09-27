@@ -1,0 +1,42 @@
+<!--
+Corrección de Errores 
+Analizar el siguiente HTML, de encontrar errores, corregirlos y explicar los 
+errores encontrados.--> 
+
+<!DOCTYPE html> 
+<html lang="es"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Ejemplo con errores</title> 
+</head> 
+ 
+<body> 
+    <h1>Bienvenidos a mi página</h1> 
+ 
+    <p>Este párrafo tiene una etiqueta <span style="color: red"> sin cerrar correctamente.</span></p> <!-- Error, tiene dos etiquetas sin cerrar correctamente /span y /p-->
+ 
+    <img src="imagenes/logo.png" alt="Logo HTML" width="200"> <!--el valor de la propiedad alt no tenia ""--> <!-- falta agregar ruta correcta de imagen para cargar. -->
+ 
+    <a href="https://www.google.com" target="_blank">Ir a Google</a> <!--el valor de la propiedad target se escribe con _ y no tenia _ --> 
+ 
+    <ul> 
+        <li>Elemento 1 </li> <!-- Error, no tiene cierre -->
+        <li>Elemento 2 </li> <!-- Error, no tiene cierre -->
+        <li>Elemento 3 </li> <!-- Error, no tiene cierre -->
+    </ul> <!--  no existia cierre de listas desordenadas --> 
+ 
+    <table> 
+        <tr> 
+            <th>Nombre</th> 
+            <th>Edad</th> 
+        </tr> <!-- Error, no tiene cierre -->
+        <tr> 
+            <td>Juan</td> 
+            <td>30</td> 
+        </tr> 
+    </table> 
+ 
+</body> 
+</html>
+

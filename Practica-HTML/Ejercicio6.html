@@ -1,0 +1,56 @@
+<!-- Tabla con Combinación de Celdas 
+Construir una tabla con encabezado y cuerpo. Usar propiedades para combinar 
+celdas en filas y columnas. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla con combinación de celdas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #0f0;
+        }
+    </style>
+  </head>
+  <body>
+
+    <h1>Tabla con combinación de celdas</h1>
+    
+    <table border="1">
+        <theader>
+            <th>Alumno</th>
+            <th>materia</th>
+            <th>Nota</th>
+        </theader>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>backend</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>backend</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Ingeniería</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </body>
+</html>
